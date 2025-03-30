@@ -806,6 +806,16 @@ span{
         height: 4px;
         background: linear-gradient(to right, #3498db, #2ecc71);
     } 
+       .about_content .heading::after{
+            content: '';
+            position: absolute;
+            top: 500px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 125px;
+            height: 4px;
+            background: linear-gradient(to right, #6c5ce7, #a8e6cf);
+        }
   }
     @media (max-width: 617px){
         
@@ -851,7 +861,7 @@ span{
         .contact h2::after {
             content: '';
             position: absolute;
-            bottom: -5839px;
+            bottom: -4439px;
             left: 50.5%;
             transform: translateX(-50%);
             width: 150px;
