@@ -851,7 +851,7 @@ span{
         .contact h2::after {
             content: '';
             position: absolute;
-            bottom: -5739px;
+            bottom: -4939px;
             left: 50.5%;
             transform: translateX(-50%);
             width: 150px;
@@ -883,7 +883,7 @@ span{
         .project-card .view-code.btn{
             position:relative;
             top:7px;
-            left:-40px;
+            left:-2.4rem;
         }
        
 } 
