@@ -830,7 +830,7 @@ span{
         .about_content .heading::after{
             content: '';
             position: absolute;
-            top: 460px;
+            top: 450px;
             left: 50%;
             transform: translateX(-50%);
             width: 125px;
@@ -851,7 +851,7 @@ span{
         .contact h2::after {
             content: '';
             position: absolute;
-            bottom: -5439px;
+            bottom: -5739px;
             left: 50.5%;
             transform: translateX(-50%);
             width: 150px;
@@ -879,6 +879,11 @@ span{
         }
         .home_container p{
             text-align: justify;
+        }
+        .project-card .view-code.btn{
+            position:relative;
+            top:7px;
+            left:-40px;
         }
        
 } 
