@@ -905,7 +905,7 @@ span{
     .contact h2::after {
             content: '';
             position: absolute;
-            bottom: -5839px;
+            bottom: -5039px;
             left: 50.5%;
             transform: translateX(-50%);
             width: 150px;
@@ -913,7 +913,7 @@ span{
             background: linear-gradient(to right, #3498db, #2ecc71);
         } 
     .projects .view-code-btn{
-    margin-left: -20rem;
+    margin-left: 2.5rem;
     }
 }
 .contact h2 span{
