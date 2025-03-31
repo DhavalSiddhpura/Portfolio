@@ -799,23 +799,13 @@ span{
     .contact h2::after {
         content: '';
         position: absolute;
-        bottom: -4075px;
+        bottom: -4475px;
         left: 50.5%;
         transform: translateX(-50%);
         width: 150px;
         height: 4px;
         background: linear-gradient(to right, #3498db, #2ecc71);
     } 
-       .about_content .heading::after{
-            content: '';
-            position: absolute;
-            top: 580px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 125px;
-            height: 4px;
-            background: linear-gradient(to right, #6c5ce7, #a8e6cf);
-        }
   }
     @media (max-width: 617px){
         
@@ -840,7 +830,7 @@ span{
         .about_content .heading::after{
             content: '';
             position: absolute;
-            top: 458px;
+            top: 590px;
             left: 50%;
             transform: translateX(-50%);
             width: 125px;
@@ -861,7 +851,7 @@ span{
         .contact h2::after {
             content: '';
             position: absolute;
-            bottom: -3979px;
+            bottom: -5439px;
             left: 50.5%;
             transform: translateX(-50%);
             width: 150px;
@@ -890,14 +880,6 @@ span{
         .home_container p{
             text-align: justify;
         }
-    .view-code-btn {
-        display: block;
-        margin-left:-3rem;
-        text-align: center;
-        margin-top: 10px;
-    }
-}
-
        
 } 
 @media (max-width: 450px){
@@ -1073,73 +1055,7 @@ span{
         display: inline; /* Keeps both paragraphs in the same line */
         white-space: normal; /* Allows text to wrap properly */
     }
-    #pb1{
-   margin-top: 1.6rem;
-}
 }
 #pb1{
    margin-top: -10rem;
-}
-
-/* Adjustments for 617px breakpoint */
-@media (max-width: 617px){
-    .about_content .heading::after {
-        content: '';
-        position: absolute;
-        top: 458px; /* Adjust to correct position */
-        left: 50%;
-        transform: translateX(-50%);
-        width: 125px;
-        height: 4px;
-        background: linear-gradient(to right, #6c5ce7, #a8e6cf);
-    }
-
-    .contact h2::after {
-        content: '';
-        position: absolute;
-        bottom: -3979px; /* Adjust to correct position */
-        left: 50%;
-        transform: translateX(-50%);
-        width: 150px;
-        height: 4px;
-        background: linear-gradient(to right, #3498db, #2ecc71);
-    }
-
-    .view-code-btn {
-        display: block;
-        margin: 10px auto; /* Center the button */
-        text-align: center;
-    }
-}
-
-/* Adjustments for 768px breakpoint */
-@media (max-width: 768px) {
-    .heading::after {
-        content: '';
-        position: absolute;
-        bottom: -1222px; /* Adjust to correct position */
-        left: 50%;
-        transform: translateX(-50%);
-        width: 130px;
-        justify-items: center;
-        height: 4px;
-        background: linear-gradient(to right, #3498db, #2ecc71);
-    }
-
-    .contact h2::after {
-        content: '';
-        position: absolute;
-        bottom: -4075px; /* Adjust to correct position */
-        left: 50%;
-        transform: translateX(-50%);
-        width: 150px;
-        height: 4px;
-        background: linear-gradient(to right, #3498db, #2ecc71);
-    }
-
-    .view-code-btn {
-        display: block;
-        margin: 10px auto; /* Center the button */
-        text-align: center;
-    }
 }
