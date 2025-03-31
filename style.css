@@ -989,7 +989,7 @@ span{
 .education_container .heading {
     text-align: center;
      position: relative;
-    left: 50rem;
+    left: 48rem;
     top: 12.5rem;
     font-size: 36px;
     margin-bottom: 40px;
@@ -1133,5 +1133,5 @@ span{
   }*/
 }
 #pb1{
-   margin-top: -4rem;
+   margin-top: 2rem;
 }
