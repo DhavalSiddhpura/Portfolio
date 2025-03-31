@@ -954,7 +954,7 @@ span{
     margin-left:3rem;
   }*/
     .view-code-btn{
-        margin-left:6rem;
+        margin-left:5rem;
     }
 }
 .contact h2 span{
@@ -1075,7 +1075,7 @@ span{
         font-size: 28px;
         text-align: center;
         position: relative;
-        left: -2rem;
+        left: 2.7rem;
         top: 10rem;
     }
 
@@ -1129,5 +1129,5 @@ span{
   }*/
 }
 #pb1{
-   margin-top: -13rem;
+   margin-top: -8rem;
 }
