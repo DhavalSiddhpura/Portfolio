@@ -473,7 +473,7 @@ span{
         margin: 12px auto;
         font-size: 14px;
         position:relative;
-        left:-50px;
+        left:-5rem;
     }
 }
 @media (max-width: 576px) {
@@ -482,7 +482,7 @@ span{
         margin: 10px auto;
         font-size: 13px;
         position:relative;
-        left:-50px;
+        left:-5rem;
     }
 }
 @media (max-width: 375px) {
@@ -490,7 +490,7 @@ span{
         padding: 6px 15px;
         font-size: 12px;
         position:relative;
-        left:-50px;
+        left:-5rem;
     }
 }
 
@@ -952,10 +952,10 @@ span{
      /* #pb1{
      margin-top: 5rem;
     margin-left:3rem;
-  }
+  }*/
     .view-code-btn{
-        margin-left:3rem;
-    }*/
+        margin-left:6rem;
+    }
 }
 .contact h2 span{
     color: var(--main-color);
@@ -984,12 +984,13 @@ span{
 
 .education_container .heading {
     text-align: center;
+     position: relative;
     left: 52rem;
     top: 12.5rem;
     font-size: 36px;
     margin-bottom: 40px;
     color: var(--text-color);
-    position: relative;
+   
 }
 
 /*.education_container .heading:after {
@@ -1128,5 +1129,5 @@ span{
   }*/
 }
 #pb1{
-   margin-top: -12rem;
+   margin-top: -13rem;
 }
