@@ -851,8 +851,9 @@ span{
         height: 4px;
         background: linear-gradient(to right, #3498db, #2ecc71);
     }*/ 
-        /*#pb1{margin-top: 5rem;
-    margin-left:3rem;}*/
+        #pb1{
+            margin-top: 1rem;
+        }
   }
     @media (max-width: 617px){
         
@@ -937,6 +938,9 @@ span{
         .view-code-btn{
         margin-left:3rem;
     }*/
+         #pb1{
+            margin-top: 1rem;
+        }
        
 } 
 @media (max-width: 450px){
@@ -949,6 +953,9 @@ span{
     .icon_up{
         display: block;
     }
+     #pb1{
+            margin-top: 1rem;
+        }
      /* #pb1{
      margin-top: 5rem;
     margin-left:3rem;
