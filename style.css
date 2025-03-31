@@ -892,6 +892,29 @@ span{
     .icon_up{
         display: block;
     }
+    .about_content .heading::after{
+            content: '';
+            position: absolute;
+            top: 458px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 125px;
+            height: 4px;
+            background: linear-gradient(to right, #6c5ce7, #a8e6cf);
+        }
+    .contact h2::after {
+            content: '';
+            position: absolute;
+            bottom: -5839px;
+            left: 50.5%;
+            transform: translateX(-50%);
+            width: 150px;
+            height: 4px;    
+            background: linear-gradient(to right, #3498db, #2ecc71);
+        } 
+    .projects .view-code-btn{
+    margin-left: -20rem;
+    }
 }
 .contact h2 span{
     color: var(--main-color);
@@ -1056,6 +1079,4 @@ span{
         white-space: normal; /* Allows text to wrap properly */
     }
 }
-#pb1{
-   margin-top: -10rem;
-}
+
