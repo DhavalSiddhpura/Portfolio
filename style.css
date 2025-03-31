@@ -861,7 +861,7 @@ span{
         .contact h2::after {
             content: '';
             position: absolute;
-            bottom: -4439px;
+            bottom: -4039px;
             left: 50.5%;
             transform: translateX(-50%);
             width: 150px;
@@ -890,11 +890,14 @@ span{
         .home_container p{
             text-align: justify;
         }
-        .project-card .view-code.btn{
-            position:relative;
-            top:7px;
-            left:-2.4rem;
-        }
+    .view-code-btn {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
        
 } 
 @media (max-width: 450px){
