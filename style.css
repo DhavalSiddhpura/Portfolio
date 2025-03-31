@@ -207,7 +207,7 @@ span{
 }
 
 .about_content .de{
-    margin-top: 5rem;
+    margin-top: 3.5rem;
     font-size: 2.0rem;
     line-height: 1.5;
     letter-spacing: 0.5px;
@@ -666,6 +666,7 @@ span{
     .about_content p {
         font-size: 1.9rem;
         text-align: center;
+        margin-top:3.5rem;
     }
     .project-card .view-code-btn{
         margin-left: 10rem;
@@ -717,6 +718,7 @@ span{
     #menu_icon {
         display: block;
     }
+     
 
     /*.heading ::after {
         content: '';
@@ -794,7 +796,8 @@ span{
     .about_content .de,
     .about_content p {
         font-size: 1.8rem;
-        text-align: justify; /* Center-align for smaller screens */
+        text-align: justify;
+        margin-top:3.5rem;/* Center-align for smaller screens */
     }
     /*.contact h2::after {
         content: '';
@@ -864,6 +867,9 @@ span{
         .about_content .btn{
             margin-left: -8px;
         }
+         .about_content .de{
+          margin-top:2rem;
+      }
         .project-content h3 {
             color: #2d3436;
             font-size: 2.0rem;
