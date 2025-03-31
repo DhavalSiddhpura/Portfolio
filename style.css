@@ -644,7 +644,7 @@ span{
     .heading ::after {
         content: '';
         position: absolute;
-        bottom: -313px;
+        bottom: -913px;
         left: 50%;
         transform: translateX(-50%);
         width: 130px;
