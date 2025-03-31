@@ -359,7 +359,7 @@ span{
     transform: translateX(-50%);
     width: 170px;
     height: 4px;
-    background: linear-gradient(to right, #6c5ce7, #a8e6cf);
+    background: linear-gradient(to right, #3498db, #2ecc71);
 }
 
 .project-grid {
@@ -835,7 +835,7 @@ span{
             transform: translateX(-50%);
             width: 125px;
             height: 4px;
-            background: linear-gradient(to right, #6c5ce7, #a8e6cf);
+            background: linear-gradient(to right, #3498db, #2ecc71);
         }
        
         .section-title::after {
@@ -846,12 +846,12 @@ span{
             transform: translateX(-50%);
             width: 170px;
             height: 4px;
-            background: linear-gradient(to right, #6c5ce7, #a8e6cf);
+            background: linear-gradient(to right, #3498db, #2ecc71);
         }
         .contact h2::after {
             content: '';
             position: absolute;
-            bottom: -5430px;
+            bottom: -5439px;
             left: 50.5%;
             transform: translateX(-50%);
             width: 150px;
@@ -1055,4 +1055,7 @@ span{
         display: inline; /* Keeps both paragraphs in the same line */
         white-space: normal; /* Allows text to wrap properly */
     }
+}
+#pb1{
+   margin-top: -10rem;
 }
