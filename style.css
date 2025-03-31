@@ -445,15 +445,51 @@ span{
     padding: 10px 25px;
     background: #D76C82;
     color: white;
-    margin-left: 90px;
     text-decoration: none;
     border-radius: 25px;
-    justify-items: center;
     font-weight: 500;
     transition: all 0.3s ease;
     position: relative;
     overflow: hidden;
-    
+    /* Center the button instead of using fixed margin */
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 1200px) {
+    .view-code-btn {
+        margin: 15px auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .view-code-btn {
+        padding: 8px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .view-code-btn {
+        margin: 12px auto;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .view-code-btn {
+        padding: 7px 18px;
+        margin: 10px auto;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 375px) {
+    .view-code-btn {
+        padding: 6px 15px;
+        font-size: 12px;
+    }
 }
 
 .view-code-btn::before {
@@ -506,9 +542,9 @@ span{
     .project-content h3 {
         font-size: 1.3rem;
     }
-    .view-code-btn{
+    /*.view-code-btn{
         margin-left:3rem;
-    }
+    }*/
 }
 
 .contact {
@@ -814,8 +850,8 @@ span{
         height: 4px;
         background: linear-gradient(to right, #3498db, #2ecc71);
     }*/ 
-        #pb1{margin-top: 5rem;
-    margin-left:3rem;}
+        /*#pb1{margin-top: 5rem;
+    margin-left:3rem;}*/
   }
     @media (max-width: 617px){
         
@@ -893,13 +929,13 @@ span{
         .home_container p{
             text-align: justify;
         }
-          #pb1{
+         /* #pb1{
   margin-top: 5rem;
     margin-left:3rem;
   }
         .view-code-btn{
         margin-left:3rem;
-    }
+    }*/
        
 } 
 @media (max-width: 450px){
@@ -912,13 +948,13 @@ span{
     .icon_up{
         display: block;
     }
-      #pb1{
+     /* #pb1{
      margin-top: 5rem;
     margin-left:3rem;
   }
     .view-code-btn{
         margin-left:3rem;
-    }
+    }*/
 }
 .contact h2 span{
     color: var(--main-color);
@@ -1063,10 +1099,10 @@ span{
 
     }
 
-  #pb1{
+ /* #pb1{
    margin-top: 5rem;
     margin-left:3rem;
-  }
+  }*/
 
     /* Fix for timeline alignment */
     .timeline {
@@ -1085,11 +1121,11 @@ span{
         display: inline; /* Keeps both paragraphs in the same line */
         white-space: normal; /* Allows text to wrap properly */
     }
-    #pb1{
+   /* #pb1{
    margin-top: 5rem;
    margin-left:3rem;
-  }
+  }*/
 }
-#pb1{
+/*#pb1{
    margin-top: -12rem;
-}
+}*/
