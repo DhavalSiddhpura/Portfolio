@@ -840,7 +840,7 @@ span{
         .about_content .heading::after{
             content: '';
             position: absolute;
-            top: 450px;
+            top: 452px;
             left: 50%;
             transform: translateX(-50%);
             width: 125px;
@@ -861,7 +861,7 @@ span{
         .contact h2::after {
             content: '';
             position: absolute;
-            bottom: -4039px;
+            bottom: -4539px;
             left: 50.5%;
             transform: translateX(-50%);
             width: 150px;
@@ -892,7 +892,7 @@ span{
         }
     .view-code-btn {
         display: block;
-        width: 100%;
+        margin-left:-3rem;
         text-align: center;
         margin-top: 10px;
     }
