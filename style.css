@@ -830,7 +830,7 @@ span{
         .about_content .heading::after{
             content: '';
             position: absolute;
-            top: 610px;
+            top: 590px;
             left: 50%;
             transform: translateX(-50%);
             width: 125px;
@@ -851,7 +851,7 @@ span{
         .contact h2::after {
             content: '';
             position: absolute;
-            bottom: -5439px;
+            bottom: -5430px;
             left: 50.5%;
             transform: translateX(-50%);
             width: 150px;
