@@ -956,6 +956,10 @@ span{
     .view-code-btn{
         margin-left:5rem;
     }
+    .education_container .heading{
+        position:relative;
+        left:3rem;
+    }
 }
 .contact h2 span{
     color: var(--main-color);
@@ -985,7 +989,7 @@ span{
 .education_container .heading {
     text-align: center;
      position: relative;
-    left: 52rem;
+    left: 50rem;
     top: 12.5rem;
     font-size: 36px;
     margin-bottom: 40px;
@@ -1075,7 +1079,7 @@ span{
         font-size: 28px;
         text-align: center;
         position: relative;
-        left: 2.7rem;
+        left: -2rem;
         top: 10rem;
     }
 
@@ -1129,5 +1133,5 @@ span{
   }*/
 }
 #pb1{
-   margin-top: -8rem;
+   margin-top: -4rem;
 }
