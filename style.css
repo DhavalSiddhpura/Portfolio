@@ -886,6 +886,9 @@ span{
         .home_container p{
             text-align: justify;
         }
+          #pb1{
+   margin-top: 2rem;
+  }
        
 } 
 @media (max-width: 450px){
@@ -898,6 +901,9 @@ span{
     .icon_up{
         display: block;
     }
+      #pb1{
+   margin-top: 2rem;
+  }
 }
 .contact h2 span{
     color: var(--main-color);
@@ -1061,6 +1067,9 @@ span{
         display: inline; /* Keeps both paragraphs in the same line */
         white-space: normal; /* Allows text to wrap properly */
     }
+    #pb1{
+   margin-top: 2rem;
+  }
 }
 #pb1{
    margin-top: -12rem;
