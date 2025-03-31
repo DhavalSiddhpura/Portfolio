@@ -472,6 +472,8 @@ span{
     .view-code-btn {
         margin: 12px auto;
         font-size: 14px;
+        position:relative;
+        left:-50px;
     }
 }
 @media (max-width: 576px) {
@@ -479,12 +481,16 @@ span{
         padding: 7px 18px;
         margin: 10px auto;
         font-size: 13px;
+        position:relative;
+        left:-50px;
     }
 }
 @media (max-width: 375px) {
     .view-code-btn {
         padding: 6px 15px;
         font-size: 12px;
+        position:relative;
+        left:-50px;
     }
 }
 
@@ -978,7 +984,7 @@ span{
 
 .education_container .heading {
     text-align: center;
-    left: 49rem;
+    left: 52rem;
     top: 12.5rem;
     font-size: 36px;
     margin-bottom: 40px;
@@ -1121,6 +1127,6 @@ span{
    margin-left:3rem;
   }*/
 }
-/*#pb1{
+#pb1{
    margin-top: -12rem;
-}*/
+}
