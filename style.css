@@ -641,17 +641,17 @@ span{
         padding: 8rem 4rem;
         flex-direction: column;
     }
-    /*.heading ::after {
+    .heading ::after {
         content: '';
         position: absolute;
-        bottom: -913px;
+        bottom: -313px;
         left: 50%;
         transform: translateX(-50%);
         width: 130px;
         justify-items: center;
         height: 4px;
         background: linear-gradient(to right, #3498db, #2ecc71);
-    }*/
+    }
     .about_img img {
         width: 60%;
         margin-bottom: 15rem;
