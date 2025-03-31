@@ -895,7 +895,7 @@ span{
     .about_content .heading::after{
             content: '';
             position: absolute;
-            top: 458px;
+            top: 505px;
             left: 50%;
             transform: translateX(-50%);
             width: 125px;
@@ -913,7 +913,8 @@ span{
             background: linear-gradient(to right, #3498db, #2ecc71);
         } 
     .projects .view-code-btn{
-    margin-left: 2.5rem;
+    margin-left: 3.5rem;
+    
     }
 }
 .contact h2 span{
