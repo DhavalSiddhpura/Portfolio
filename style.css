@@ -830,7 +830,7 @@ span{
         .about_content .heading::after{
             content: '';
             position: absolute;
-            top: 455px;
+            top: 590px;
             left: 50%;
             transform: translateX(-50%);
             width: 125px;
