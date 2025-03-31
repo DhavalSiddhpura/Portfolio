@@ -892,16 +892,6 @@ span{
     .icon_up{
         display: block;
     }
-    .about_content .heading::after{
-            content: '';
-            position: absolute;
-            top: 505px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 125px;
-            height: 4px;
-            background: linear-gradient(to right, #6c5ce7, #a8e6cf);
-        }
     .contact h2::after {
             content: '';
             position: absolute;
