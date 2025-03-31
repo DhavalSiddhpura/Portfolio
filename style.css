@@ -190,7 +190,7 @@ span{
     margin-top: -40px;
     font-size: 4.0rem;
 }
-.heading ::after {
+/*.heading ::after {
     content: '';
     position: absolute;
     bottom: 432px;
@@ -199,7 +199,7 @@ span{
     width: 180px;
     height: 4px;
     background: linear-gradient(to right, #3498db, #2ecc71);
-}
+}*/
 
 .about_content h2{
     text-align: center;
@@ -233,7 +233,7 @@ span{
     position: relative;
 }
 
-.skills h2::after {
+/*.skills h2::after {
     content: '';
     position: absolute;
     bottom: -15px;
@@ -242,7 +242,7 @@ span{
     width: 80px;
     height: 4px;
     background: linear-gradient(to right, #3498db, #2ecc71);
-}
+}*/
 
 .card-container {
     max-width: 1200px;
@@ -351,7 +351,7 @@ span{
     position: relative;
 }
 
-.section-title::after {
+/*.section-title::after {
     content: '';
     position: absolute;
     bottom: -9px;
@@ -360,7 +360,7 @@ span{
     width: 170px;
     height: 4px;
     background: linear-gradient(to right, #3498db, #2ecc71);
-}
+}*/
 
 .project-grid {
     display: grid;
@@ -520,7 +520,7 @@ span{
     color: var(--text-color);
     margin-bottom: 60px;
   }
-  .contact h2::after {
+  /*.contact h2::after {
     content: '';
     position: absolute;
     bottom: -2940px;
@@ -529,7 +529,7 @@ span{
     width: 195px;
     height: 4px;
     background: linear-gradient(to right, #3498db, #2ecc71);
-}
+}*/
   .contact-form {
     display: flex;
     flex-direction: column;
@@ -641,7 +641,7 @@ span{
         padding: 8rem 4rem;
         flex-direction: column;
     }
-    .heading ::after {
+    /*.heading ::after {
         content: '';
         position: absolute;
         bottom: -913px;
@@ -651,7 +651,7 @@ span{
         justify-items: center;
         height: 4px;
         background: linear-gradient(to right, #3498db, #2ecc71);
-    }
+    }*/
     .about_img img {
         width: 60%;
         margin-bottom: 15rem;
@@ -690,7 +690,7 @@ span{
     .contact{
         min-height: auto;
     }
-    .contact h2::after {
+    /*.contact h2::after {
         content: '';
         position: absolute;
         bottom: -4180px;
@@ -699,7 +699,7 @@ span{
         width: 160px;
         height: 4px;
         background: linear-gradient(to right, #3498db, #2ecc71);
-    }    
+    }*/    
     .footer{
         padding: 2rem 3%;
     }
@@ -718,7 +718,7 @@ span{
         display: block;
     }
 
-    .heading ::after {
+    /*.heading ::after {
         content: '';
         position: absolute;
         bottom: -1222px;
@@ -728,7 +728,7 @@ span{
         justify-items: center;
         height: 4px;
         background: linear-gradient(to right, #3498db, #2ecc71);
-    }
+    }*/
     .navbar {
         display: none; /* Hide navbar by default */
         flex-direction: column;
@@ -796,7 +796,7 @@ span{
         font-size: 1.8rem;
         text-align: justify; /* Center-align for smaller screens */
     }
-    .contact h2::after {
+    /*.contact h2::after {
         content: '';
         position: absolute;
         bottom: -4475px;
@@ -805,7 +805,7 @@ span{
         width: 150px;
         height: 4px;
         background: linear-gradient(to right, #3498db, #2ecc71);
-    } 
+    }*/ 
   }
     @media (max-width: 617px){
         
@@ -827,7 +827,7 @@ span{
             width: 100%;
             margin-top: 4rem;
         }
-        .about_content .heading::after{
+        /*.about_content .heading::after{
             content: '';
             position: absolute;
             top: 590px;
@@ -836,9 +836,9 @@ span{
             width: 125px;
             height: 4px;
             background: linear-gradient(to right, #3498db, #2ecc71);
-        }
+        }*/
        
-        .section-title::after {
+        /*.section-title::after {
             content: '';
             position: absolute;
             bottom: -10px;
@@ -857,7 +857,7 @@ span{
             width: 150px;
             height: 4px;    
             background: linear-gradient(to right, #3498db, #2ecc71);
-        } 
+        } */
         .icon_up{
             display: block;
         }
@@ -928,7 +928,7 @@ span{
     position: relative;
 }
 
-.education_container .heading:after {
+/*.education_container .heading:after {
     content: '';
     position: absolute;
     bottom: -15px;
@@ -939,7 +939,7 @@ span{
     height: 4px;
     background: linear-gradient(to right, #3498db, #2ecc71);
 
-  }
+  }*/
 
 .education_container {
     display: flex; /* Enable flexbox */
