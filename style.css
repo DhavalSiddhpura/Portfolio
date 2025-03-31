@@ -809,6 +809,8 @@ span{
         height: 4px;
         background: linear-gradient(to right, #3498db, #2ecc71);
     }*/ 
+        #pb1{margin-top: 3rem;
+    margin-left:1rem;}
   }
     @media (max-width: 617px){
         
@@ -887,7 +889,8 @@ span{
             text-align: justify;
         }
           #pb1{
-   margin-top: 2rem;
+  margin-top: 3rem;
+    margin-left:1rem;
   }
        
 } 
@@ -902,7 +905,8 @@ span{
         display: block;
     }
       #pb1{
-   margin-top: 2rem;
+     margin-top: 3rem;
+    margin-left:1rem;
   }
 }
 .contact h2 span{
@@ -1049,7 +1053,8 @@ span{
     }
 
   #pb1{
-   margin-top: 2rem;
+   margin-top: 3rem;
+    margin-left:1rem;
   }
 
     /* Fix for timeline alignment */
@@ -1070,7 +1075,7 @@ span{
         white-space: normal; /* Allows text to wrap properly */
     }
     #pb1{
-   margin-top: 2rem;
+   margin-top: 4rem;
   }
 }
 #pb1{
