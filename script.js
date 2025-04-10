@@ -68,15 +68,16 @@ window.onload = function () {
 
 let resume_btn = document.getElementById('btn');
 resume_btn.addEventListener('click', () => {
-    const resumePath = 'dhaval_cv.pdf';
+    const resumePath = 'Dhaval_Siddhpura_Resume.pdf';
 
     const link = document.createElement('a');
     link.href = resumePath;
-    link.download = 'My_Resume.pdf';
+    link.download = 'Dhaval_Siddhpura_Resume.pdf'; // Set the name you want user to see
 
     link.click();
     link.remove();
 });
+
 
 document.getElementById('contact-form').addEventListener('submit', function(e) {
     e.preventDefault();
@@ -140,29 +141,3 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     }
 });
 
-document.getElementById("btn").addEventListener("click", function () {
-    const link = document.createElement("a");
-    link.href = "Dhaval_Siddhpura_Resume.pdf"; // Make sure this is correct relative path
-    link.download = "Dhaval_Siddhpura_Resume.pdf"; // Optional: name it for download
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-});
-
-/*function showEmail() {
-    Swal.fire({
-        icon: 'info',
-        title: 'Contact Email',
-        text: 'saidhaval22@gmail.com',
-        confirmButtonText: 'OK'
-    });
-}
-
-function showPhone() {
-    Swal.fire({
-        icon: 'info',
-        title: 'Phone Number',
-        text: '+91 9426019584',
-        confirmButtonText: 'OK'
-    });
-}*/
