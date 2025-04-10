@@ -140,6 +140,15 @@ document.getElementById('contact-form').addEventListener('submit', function(even
     }
 });
 
+document.getElementById("btn").addEventListener("click", function () {
+    const link = document.createElement("a");
+    link.href = "Dhaval_Siddhpura_Resume.pdf"; // Make sure this is correct relative path
+    link.download = "Dhaval_Siddhpura_Resume.pdf"; // Optional: name it for download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+});
+
 /*function showEmail() {
     Swal.fire({
         icon: 'info',
