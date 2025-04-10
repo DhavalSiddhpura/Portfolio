@@ -130,7 +130,7 @@ document.addEventListener("DOMContentLoaded", function () {
     sr.reveal('.Home, .header', { origin: 'top', delay: 300 });
     sr.reveal('.About, .skills', { origin: 'left', delay: 400 });
     sr.reveal('.projects', { origin: 'left', delay: 500 });
-    sr.reveal('.contact form', { origin: 'bottom', delay: 600 });
+    sr.reveal('.contact form', { origin: 'bottom', delay: 500 });
     sr.reveal('.Education', { origin: 'left', delay: 500 });
 });
 
