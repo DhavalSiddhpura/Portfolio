@@ -72,7 +72,7 @@ resume_btn.addEventListener('click', () => {
 
     const link = document.createElement('a');
     link.href = resumePath;
-    link.download = 'Dhaval_Siddhpura_Resume.pdf'; // Set the name you want user to see
+    link.download = 'Dhaval Siddhpura CV.pdf'; // Set the name you want user to see
 
     link.click();
     link.remove();
