@@ -68,7 +68,7 @@ window.onload = function () {
 
 let resume_btn = document.getElementById('btn');
 resume_btn.addEventListener('click', () => {
-    const resumePath = 'Dhaval_Siddhpura_Resume.pdf';
+    const resumePath = 'Dhaval Siddhpura CV.pdf';
 
     const link = document.createElement('a');
     link.href = resumePath;
@@ -78,22 +78,39 @@ resume_btn.addEventListener('click', () => {
     link.remove();
 });
 
-
-document.getElementById('contact-form').addEventListener('submit', function(e) {
+// ✅ NEW: Contact form submit using AJAX + FormSubmit
+document.getElementById('contact-form').addEventListener('submit', async function(e) {
     e.preventDefault();
 
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
+    if (!validateForm()) {
+        return;
+    }
 
-    alert('Thank you for contacting us! We will get back to you soon.');
-    this.reset();
+    const form = e.target;
+    const formData = new FormData(form);
+
+    try {
+        const response = await fetch('https://formsubmit.co/saidhaval22@gmail.com', {
+            method: 'POST',
+            body: formData
+        });
+
+        if (response.ok) {
+            alert('Thank you for contacting us! We will get back to you soon.');
+            form.reset();
+        } else {
+            alert('Oops! Something went wrong. Please try again.');
+        }
+    } catch (error) {
+        alert('Error! Please check your connection and try again.');
+    }
 });
 
+// ✅ Keep validateForm()
 function validateForm() {
-    const name = document.getElementById('name').value;
-    const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const message = document.getElementById('message').value.trim();
 
     if (!name || !email || !message) {
         alert('Please fill in all fields');
@@ -133,11 +150,3 @@ document.addEventListener("DOMContentLoaded", function () {
     sr.reveal('.contact form', { origin: 'bottom', delay: 500 });
     sr.reveal('.Education', { origin: 'left', delay: 500 });
 });
-
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault();
-    if (validateForm()) {
-        alert('Form submitted successfully!');
-    }
-});
-
