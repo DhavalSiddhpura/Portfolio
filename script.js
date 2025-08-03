@@ -68,11 +68,11 @@ window.onload = function () {
 
 let resume_btn = document.getElementById('btn');
 resume_btn.addEventListener('click', () => {
-    const resumePath = 'Dhaval Siddhpura CV.pdf';
+    const resumePath = 'DhavalSiddhpuraResume.pdf';
 
     const link = document.createElement('a');
     link.href = resumePath;
-    link.download = 'Dhaval Siddhpura CV.pdf'; // Set the name you want user to see
+    link.download = 'DhavalSiddhpuraResume.pdf'; // Set the name you want user to see
 
     link.click();
     link.remove();
